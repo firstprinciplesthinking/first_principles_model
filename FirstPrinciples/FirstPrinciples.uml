@@ -7,35 +7,72 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_IbGU4IoQEe6lRK1is2Z7Tg">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_-EbAsIoqEe6swYCfyK1Itw" name="firstprinciples.example">
-      <packagedElement xmi:type="uml:Class" xmi:id="_TPUscIoQEe6lRK1is2Z7Tg" name="House">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_VpisIIoQEe6lRK1is2Z7Tg" name="Living Room">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_W_kD4IoQEe6lRK1is2Z7Tg" name="Sofa">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_a60_kIoQEe6lRK1is2Z7Tg" name="Is in color brown">
-              <ownedOperation xmi:type="uml:Operation" xmi:id="_BPHZ4IoREe6lRK1is2Z7Tg" name="Color test procedure"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_H35s8IorEe6swYCfyK1Itw" name="v-model">
+      <packagedElement xmi:type="uml:Package" xmi:id="_s7CBYIorEe6swYCfyK1Itw" name="requirements">
+        <packagedElement xmi:type="uml:Class" xmi:id="_gzUWwIotEe6swYCfyK1Itw" name="Element requirement">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ibVdcIotEe6swYCfyK1Itw" name="Relationship requirement"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_kdb4EIotEe6swYCfyK1Itw" name="Subelement requirement"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_x_CGwIorEe6swYCfyK1Itw" name="architecture">
+        <packagedElement xmi:type="uml:Class" xmi:id="_5RWd0IorEe6swYCfyK1Itw" name="Element">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_7O_PMIorEe6swYCfyK1Itw" name="Subelement"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_GQh0kIotEe6swYCfyK1Itw" name="Relationship"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_38xQgIorEe6swYCfyK1Itw" name="test">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_ahOtoIotEe6swYCfyK1Itw" name="Element test">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_aKKRcIotEe6swYCfyK1Itw" name="Relationship test"/>
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_akdAwIotEe6swYCfyK1Itw" name="Subelement test"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-EbAsIoqEe6swYCfyK1Itw" name="firstprinciples">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ly7_IIorEe6swYCfyK1Itw" name="example">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TPUscIoQEe6lRK1is2Z7Tg" name="House">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_VpisIIoQEe6lRK1is2Z7Tg" name="Living Room">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_W_kD4IoQEe6lRK1is2Z7Tg" name="Sofa">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_a60_kIoQEe6lRK1is2Z7Tg" name="Is in color brown">
+                <ownedOperation xmi:type="uml:Operation" xmi:id="_BPHZ4IoREe6lRK1is2Z7Tg" name="Color test procedure"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_cyJGgIoQEe6lRK1is2Z7Tg" name="Is a pull-out sofa">
+                <ownedOperation xmi:type="uml:Operation" xmi:id="_IvjFcIoREe6lRK1is2Z7Tg" name="Assemble test procedure"/>
+                <ownedOperation xmi:type="uml:Operation" xmi:id="_MppjgIoREe6lRK1is2Z7Tg" name="Disassemble test procedure"/>
+              </nestedClassifier>
             </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_cyJGgIoQEe6lRK1is2Z7Tg" name="Is a pull-out sofa">
-              <ownedOperation xmi:type="uml:Operation" xmi:id="_IvjFcIoREe6lRK1is2Z7Tg" name="Assemble test procedure"/>
-              <ownedOperation xmi:type="uml:Operation" xmi:id="_MppjgIoREe6lRK1is2Z7Tg" name="Disassemble test procedure"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_uJ5cgIoQEe6lRK1is2Z7Tg" name="TV">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_CKH0IIoSEe6lRK1is2Z7Tg" name="At least 60 inch diagonale"/>
             </nestedClassifier>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_uJ5cgIoQEe6lRK1is2Z7Tg" name="TV">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_CKH0IIoSEe6lRK1is2Z7Tg" name="At least 60 inch diagonale"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_1-EjcIoQEe6lRK1is2Z7Tg" name="Has jungle wallpaper"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_7tyC0IoREe6lRK1is2Z7Tg" name="Cable box">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_9amJ8IoREe6lRK1is2Z7Tg" name="Receives CSPAN"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_GuW0UIoSEe6lRK1is2Z7Tg" name="Coax cable">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_a8Dx0IoUEe6lRK1is2Z7Tg" name="Has great signal">
-                <ownedOperation xmi:type="uml:Operation" xmi:id="_oduAAIoUEe6lRK1is2Z7Tg" name="dB test procedure"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_1-EjcIoQEe6lRK1is2Z7Tg" name="Has jungle wallpaper"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_7tyC0IoREe6lRK1is2Z7Tg" name="Cable box">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_9amJ8IoREe6lRK1is2Z7Tg" name="Receives CSPAN"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_GuW0UIoSEe6lRK1is2Z7Tg" name="Coax cable">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_a8Dx0IoUEe6lRK1is2Z7Tg" name="Has great signal">
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_oduAAIoUEe6lRK1is2Z7Tg" name="dB test procedure"/>
+                </nestedClassifier>
               </nestedClassifier>
             </nestedClassifier>
           </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_sN8GIIoQEe6lRK1is2Z7Tg" name="Kitchen">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_vMI8oIoQEe6lRK1is2Z7Tg" name="Sink"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_wHWnsIoQEe6lRK1is2Z7Tg" name="Oven">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_zB3RAIoQEe6lRK1is2Z7Tg" name="Includes microwave"/>
+            </nestedClassifier>
+          </nestedClassifier>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ButEoIosEe6swYCfyK1Itw" name="Element">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OT-jEIosEe6swYCfyK1Itw" name="Element requirement">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_RsC1oIotEe6swYCfyK1Itw" name="Element test"/>
         </nestedClassifier>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_sN8GIIoQEe6lRK1is2Z7Tg" name="Kitchen">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_vMI8oIoQEe6lRK1is2Z7Tg" name="Sink"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_wHWnsIoQEe6lRK1is2Z7Tg" name="Oven">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_zB3RAIoQEe6lRK1is2Z7Tg" name="Includes microwave"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_EfqwYIosEe6swYCfyK1Itw" name="Relationship">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_I5qPcIosEe6swYCfyK1Itw" name="Relationship Requirement">
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_OEqfQIotEe6swYCfyK1Itw" name="Relationship test"/>
+          </nestedClassifier>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Hg5FsIosEe6swYCfyK1Itw" name="Subelement">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_j6sz4IosEe6swYCfyK1Itw" name="Subelement Requirement">
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_S9JRIIotEe6swYCfyK1Itw" name="Subelement test"/>
           </nestedClassifier>
         </nestedClassifier>
       </packagedElement>
@@ -121,4 +158,22 @@
   <PortsAndFlows:InterfaceBlock xmi:id="_GuZ3oIoSEe6lRK1is2Z7Tg" base_Class="_GuW0UIoSEe6lRK1is2Z7Tg"/>
   <Requirements:Requirement xmi:id="_a8FnAIoUEe6lRK1is2Z7Tg" base_NamedElement="_a8Dx0IoUEe6lRK1is2Z7Tg" base_Class="_a8Dx0IoUEe6lRK1is2Z7Tg"/>
   <Requirements:TestCase xmi:id="_odv1MIoUEe6lRK1is2Z7Tg" base_Operation="_oduAAIoUEe6lRK1is2Z7Tg"/>
+  <Blocks:Block xmi:id="_5RavQIorEe6swYCfyK1Itw" base_Class="_5RWd0IorEe6swYCfyK1Itw"/>
+  <Blocks:Block xmi:id="_7PCSgIorEe6swYCfyK1Itw" base_Class="_7O_PMIorEe6swYCfyK1Itw"/>
+  <Blocks:Block xmi:id="_Buu50IosEe6swYCfyK1Itw" base_Class="_ButEoIosEe6swYCfyK1Itw"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_EftzsIosEe6swYCfyK1Itw" base_Class="_EfqwYIosEe6swYCfyK1Itw"/>
+  <Blocks:Block xmi:id="_Hg7h8IosEe6swYCfyK1Itw" base_Class="_Hg5FsIosEe6swYCfyK1Itw"/>
+  <Requirements:Requirement xmi:id="_I5sEoIosEe6swYCfyK1Itw" base_NamedElement="_I5qPcIosEe6swYCfyK1Itw" base_Class="_I5qPcIosEe6swYCfyK1Itw"/>
+  <Requirements:Requirement xmi:id="_OUAYQIosEe6swYCfyK1Itw" base_NamedElement="_OT-jEIosEe6swYCfyK1Itw" base_Class="_OT-jEIosEe6swYCfyK1Itw"/>
+  <Requirements:Requirement xmi:id="_j6upEIosEe6swYCfyK1Itw" base_NamedElement="_j6sz4IosEe6swYCfyK1Itw" base_Class="_j6sz4IosEe6swYCfyK1Itw"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_GQk34IotEe6swYCfyK1Itw" base_Class="_GQh0kIotEe6swYCfyK1Itw"/>
+  <Requirements:TestCase xmi:id="_OEsUcIotEe6swYCfyK1Itw" base_Operation="_OEqfQIotEe6swYCfyK1Itw"/>
+  <Requirements:TestCase xmi:id="_RsEDwIotEe6swYCfyK1Itw" base_Operation="_RsC1oIotEe6swYCfyK1Itw"/>
+  <Requirements:TestCase xmi:id="_S9LGUIotEe6swYCfyK1Itw" base_Operation="_S9JRIIotEe6swYCfyK1Itw"/>
+  <Requirements:TestCase xmi:id="_aKLfkIotEe6swYCfyK1Itw" base_Behavior="_aKKRcIotEe6swYCfyK1Itw"/>
+  <Requirements:TestCase xmi:id="_ahPUsIotEe6swYCfyK1Itw" base_Behavior="_ahOtoIotEe6swYCfyK1Itw"/>
+  <Requirements:TestCase xmi:id="_akdAwYotEe6swYCfyK1Itw" base_Behavior="_akdAwIotEe6swYCfyK1Itw"/>
+  <Requirements:Requirement xmi:id="_gzXaEIotEe6swYCfyK1Itw" base_NamedElement="_gzUWwIotEe6swYCfyK1Itw" base_Class="_gzUWwIotEe6swYCfyK1Itw"/>
+  <Requirements:Requirement xmi:id="_ibWrkIotEe6swYCfyK1Itw" base_NamedElement="_ibVdcIotEe6swYCfyK1Itw" base_Class="_ibVdcIotEe6swYCfyK1Itw"/>
+  <Requirements:Requirement xmi:id="_kddtQIotEe6swYCfyK1Itw" base_NamedElement="_kdb4EIotEe6swYCfyK1Itw" base_Class="_kdb4EIotEe6swYCfyK1Itw"/>
 </xmi:XMI>
